@@ -76,7 +76,7 @@ class Page {
 	}
 	displayHud(){
 		return {
-			statusBar: this.statusBar
+			statusBar: this.statusBar,
 			inventory: this.inventory
 		}
 	}
