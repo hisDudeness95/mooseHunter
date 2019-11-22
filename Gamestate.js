@@ -9,7 +9,7 @@ class GameState {
 		console.log(`New inventory: ${this.inventory}`)
 	}
 	viewStatus(){
-		if (this.status.length < 4){
+		if (this.status.length < 5){
 			console.log(`Your current status is: ${this.status}. You are healthy, with no injuries or ailments.`)
 		}
 		else {
@@ -99,14 +99,6 @@ class PageManager {
 var gameState = new GameState()
 
 //create option
-
-const text = "You take the rifle"
-const requirement = (gameState) => {
-	return true
-}
-const effect = (gameState) => {
-	return gameState.setFlag("tookRifle")
-}
 
 const option = new Option(text, requirement, effect)
 option.createEffect(gameState)
