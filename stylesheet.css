@@ -1,0 +1,72 @@
+
+		 h2,h3,h4{
+			font-family:serif;
+			padding: 3px;
+		}
+		h1 {
+			font-family: serif;
+			font-size: 24px;
+			padding: 5px;
+		}
+		p {
+			font-family: sans-serif;
+			font-size: 14px;
+			padding:3px;
+		}
+		a:link{
+			color: green;
+		}
+		a:visited {
+			color: purple;
+		}
+		a:hover {
+			background-color:blue;
+			transition-delay: 0.25s;
+			transition-duration: 1s;
+			transition-timing-function: ease;
+		}
+
+		h3 a {
+			color:black;
+		}
+		h4 a {
+			font-size: 18px;
+		}
+		body{
+			margin-left:25px;
+			margin-right: 25px;
+			}					
+		#table-of-contents {
+			position:absolute;
+		}
+		
+		#body {
+			margin-left: 222px;
+			margin-right: 222px;
+			border-width: 3px;
+			border-color: black;
+			border-style: double;
+		}
+		div h3,h4{
+			color:black;
+		}
+
+		button {
+			font-family: sans-serif;
+			font-size: 14px;
+		}
+
+		#statusBar {
+			position: absolute;
+			margin-right: 1015px;
+			margin-left: 10px;
+		}
+
+		#inventory {
+			position: absolute;
+			margin-left: 1015px;
+			margin-right: 10px;
+		}
+
+		#rifle {
+		}
